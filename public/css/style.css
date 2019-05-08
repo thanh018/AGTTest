@@ -1,0 +1,447 @@
+/* Common */
+@media (min-width: 1200px) {
+    .container {
+        width: 970px;
+    }
+}
+
+a {
+    cursor: pointer;
+}
+
+a:hover {
+    text-decoration: none;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+/* Header */
+
+.agt-test .navbar-default {
+    background-color: transparent;
+    border-radius: 0;
+    margin: 0;
+    border: none;
+    z-index: 2;
+}
+
+.agt-test .navbar-default .navbar-brand {
+    color: #fff;
+    padding: 30px 0;
+    margin-left: 0;
+}
+
+.agt-test .navbar-default .navbar-nav > li> a {
+    color: #fff;
+    padding: 30px 20px 0 30px;
+}
+
+.agt-test .navbar-default .navbar-nav > li > a:hover,
+.agt-test .navbar-default .navbar-brand:hover {
+    color: #00d5a6;
+}
+
+.agt-test .navbar-default .navbar-collapse {
+    border-color: #00d5a6;
+}
+
+/* Banner */
+
+.agt-test .banner-block {
+    min-height: 768px;
+    background-image: url('../images/agt/bg-header-mage.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-top: -60px;
+}
+
+.banner-block {
+    position: relative;
+}
+
+.banner-content {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+
+.banner-content .banner-title {
+    color: #fff;
+    font-size: 60px;
+    margin-top: 0;
+    margin-bottom: 25px;
+}
+
+.banner-content .banner-subtitle {
+    color: #fff;
+    font-size: 30px;
+    margin-bottom: 25px;
+    display: block;
+}
+
+.btn-green {
+    display: inline-block;
+    color: #fff;
+    background-color: #00d5a6;
+    padding: 13px 40px;
+    min-width: 200px;
+    border-radius: 4px;
+    transition: all .3s;
+    text-decoration: none;
+}
+
+.btn-green:hover {
+    background-color: #fff;
+    color: #00d5a6;
+    text-decoration: none;
+}
+
+/* section commom */
+    .section-inner {
+        display: flex;
+    }
+
+    .section-inner .section-left {
+        flex-basis: 50%;
+    }
+
+    .section-inner .section-right {
+        flex-basis: 50%;
+    }
+
+    .section-title {
+        font-size: 20px;
+        color: #333;
+        text-transform: uppercase;
+        margin-bottom: 10px;
+        margin-top: 0;
+    }
+
+    .section-description {
+        font-size: 18px;
+        color: #333;
+        margin-bottom: 15px;
+    }
+
+
+/* section text */
+
+    .section-text {
+        min-height: 750px;
+        background-image: url('../images/agt/bg-1.png');
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+
+    .section-text-inner {
+        padding-top: 110px;
+    }
+
+    .section-text .image-block {
+        padding-left: 40px;
+    }
+
+
+    .btn-pink {
+        color: #ff0161;
+        font-size: 20px;
+        display: flex;
+    }
+
+    .btn-pink img {
+        margin-left: 5px;
+        margin-top: 5px;
+    }
+
+    .btn-pink:hover {
+        color: #ff0161;
+        opacity: 0.7;
+    }
+
+/* Section iMac */
+    .section-mac {
+        margin-top: -300px;
+        position: relative;
+        z-index: 2;
+    }
+
+    .section-mac .image-block {
+        max-width: 440px;
+    }
+
+    .section-mac .section-left {
+        padding-right: 30px;
+    }
+
+    .section-mac .section-right {
+        padding-top: 180px;
+        padding-left: 30px;
+    }
+
+    .subtitle-block {
+        padding-top: 20px;
+        border-top: 1px solid #e1d5eb;
+        display: flex;
+        align-items: flex-start;
+    }
+
+    .subtitle-block p {
+        padding-right: 36px;
+    }
+
+    .subtitle-block  span {
+        color: #ff0161;
+    }
+
+    .section-mac .section-description {
+        margin-bottom: 20px;
+    }
+/* section Ipad */
+
+    .section-ipad {
+        min-height: 1120px;
+        background-image: url('../images/agt/bg-2.png');
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        position: relative;
+        margin-top: -160px;
+    }
+
+    .section-ipad-inner {
+        display: flex;
+        position: absolute;
+        bottom: 230px;
+        width: 100%;
+    }
+
+    .section-ipad .section-left {
+        padding-right: 40px;
+        padding-left: calc(50% - 470px)
+    }
+
+    .section-ipad .section-right {
+        padding-left: 40px;
+        padding-right: 50px;
+    }
+
+    .section-ipad .section-right .image-block {
+        max-width: 600px;
+    }
+
+    .feature-block {
+        display: flex;
+    }
+
+    .feature-list {
+        list-style-type: none;
+        padding: 0 20px 0 0;
+        margin-top: 10px;
+    }
+
+    .feature-list li {
+        display: flex;
+        margin-bottom: 5px;
+    }
+
+    .feature-list li span {
+        font-size: 19px;
+        padding-left: 5px;
+    }
+
+/* Footer Top */
+
+    .footer-top {
+        background-color: #f8f9fa;
+        box-shadow: -6px -10px 14px -3px rgb(51, 51, 51, 0.1);
+        padding: 40px 0;
+    }
+
+    .footer-top-inner {
+        display: flex;
+        align-items: center;
+    }
+
+    .logo-footer {
+        color: #333;
+    }
+
+    .logo-footer:hover {
+        color: #00d5a6;
+    }
+
+    .list-store,
+    .list-social,
+    .logo-footer {
+        flex-basis: 33.33%;
+    }
+
+    .list-store,
+    .list-social {
+        display: flex;
+    }
+
+    .list-social {
+        justify-content: flex-end;
+    }
+
+    .list-social li {
+        border: 1px solid #e7e8ea;
+    }
+
+    .list-social li:first-child {
+        border-top-left-radius: 4px;
+        border-bottom-left-radius: 4px;
+    }
+
+    .list-social li:last-child {
+        border-top-right-radius: 4px;
+        border-bottom-right-radius: 4px;
+    }
+
+    .list-social li + li {
+        border-left: none;
+    }
+    .list-social li img {
+        width: 40px;
+        height: 40px;
+        border-radius: 4px;
+    }
+
+/* Footer Bottom */
+    .footer-bottom {
+        background-color: #f8f9fa;
+        padding: 20px 0;
+        border-top: 1px solid #e7e8ea;
+    }
+
+    .footer-bottom code {
+        padding: 0 5px 0 0;
+        font-size: 14px;
+        background-color: transparent;
+        color: #333;
+        line-height: 1;
+    }
+
+    .footer-bottom p {
+        font-size: 12px;
+    }
+@media (min-width: 768px) {
+    .section-ipad-inner {
+        padding: 0 15px;
+    }
+}
+
+ /* MOBILE */
+
+@media (max-width: 767px) {
+
+    /* Header */
+        .agt-test .navbar-default {
+            background-color: #000;
+        }
+
+        .agt-test .navbar-default .navbar-brand,
+        .agt-test .navbar-default .navbar-nav > li> a {
+            padding: 15px 20px;
+        }
+    /* Banner */
+        .banner-content {
+            width: 100%;
+        }
+
+        .banner-content .banner-title {
+            font-size: 20px;
+            margin-bottom: 10px;
+        }
+
+        .banner-content .banner-subtitle {
+            font-size: 18px;
+            margin-bottom: 10px;
+        }
+
+        .agt-test .banner-block {
+            min-height: 400px;
+            margin-top: -1px;
+        }
+    /* Section Commom */
+        .section-inner {
+            display: block;
+        }
+
+        .section-inner .section-left {
+            margin-bottom: 50px;
+        }
+
+        .section-description {
+            font-size: 16px;
+        }
+
+    /* Section Text */
+        .section-text-inner {
+            padding-top: 30px;
+        }
+
+        .section-text .image-block {
+            padding-left: 0;
+        }
+
+        .section-text {
+            min-height: 400px;
+        }
+    /* Section Mac */
+        .section-mac {
+            margin-top: 50px;
+        }
+
+        .section-mac .section-left {
+            padding-right: 0;
+        }
+
+        .section-mac .section-right {
+            padding: 0;
+        }
+
+        .subtitle-block p {
+            padding-right: 20px;
+        }
+
+    /* Section iPad */
+        .section-ipad {
+            margin-top: 70px;
+            min-height: 550px;
+        }
+
+        .section-ipad-inner {
+            position: relative;
+            bottom: auto;
+        }
+
+        .section-ipad-inner .section-left {
+            padding: 0 20px;
+        }
+
+        .feature-list li span {
+            font-size: 16px;
+        }
+    /* Footer Top */
+        .footer-top-inner {
+            flex-direction: column;
+        }
+        
+        .footer-top {
+            padding: 20px 0;
+        }
+
+        .list-store, .list-social {
+            margin-top: 10px;
+        }
+}
